@@ -11,10 +11,6 @@ require_once 'classes/Robot.php';
 
 //calling the Robot class
 $robot = new Robot();
-
-//displays robot name
-$robot->displayName();
-$robot->robotType();
-
+//$robot->__construct();
 
 ?>
