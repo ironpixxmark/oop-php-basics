@@ -14,28 +14,28 @@ class Robot {
 	
 	
 	function __construct($name, $type) {
-		//echo 'I created a class!!! Yay!!!';
+		
 		$this->_name = $name;
 		$this->_type = $type;
 			
 	}
 	
-	//displays robot's name
-	public function displayName($name) {
+	//displays/gets robot's name
+	public function displayName() {
 		
-		//just showing how this function will be outputted
-		echo 'My name is ' , $this->_name = "bob <br >";
 		
-		//get name of robot??
+		return 'Name: ' . $this->_name;
+		
+		
 	}
 	
-	//displays robot's type -- i.e. tank robot, bending robot, laser shooting robot.
-	public function robotType($type) {
+	//displays/gets robot's type -- i.e. tank robot, bending robot, laser shooting robot.
+	public function robotType() {
 		
-		//just showing how this function will be outputted
-		echo 'I am a ' , $this->_type = "tank robot <br />";
+		return 'Robot Type: ' . $this->_type;
+	
 		
-		//array displaying types of robots??
+	
 	}
 		
 }
